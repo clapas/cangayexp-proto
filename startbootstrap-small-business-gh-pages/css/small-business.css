@@ -1,0 +1,133 @@
+/*!
+ * Start Bootstrap - Small Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/*
+@font-face {
+    font-family: CMU-Bright;
+    src: url('/home/claudio/.fonts/cmunbmr.otf'); 
+}
+
+body {
+   font-family: CMU-Bright; 
+}
+*/
+
+.nav {
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    padding: 12px 15px;
+}
+
+footer {
+    padding: 50px 0;
+    margin: 90px 0 0;
+    background-color: #eee;
+}
+
+@media(min-width:768px) {
+    body {
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.full-width-text {
+    text-align: justify;
+}
+
+.full-width-text:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar .divider-vertical {
+    height: 25px;
+    margin: 12px 9px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #c2c2c2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+
+time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  margin: 0 0 6px;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #000;
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: #000;
+}
+
+time.icon span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+.tags {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+
+.join-us {
+  padding: 80px 0;
+}
+
+.activity-title {
+  margin-top: 2px;
+}
+
+.activity {
+  margin-top: 24px;
+}
