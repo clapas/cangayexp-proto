@@ -15,22 +15,42 @@ body {
 }
 */
 
-.nav {
-    padding: 12px 0;
+.navbar-default {
+    background-color: #eee;
+    border-color: #dfdfdf;
 }
 
 .navbar-brand {
-    padding: 12px 15px;
+    float: none;
+    padding: 0;
+}
+
+.navbar-brand > img {
+    display: inline;
+    margin-top: 4px;
+}
+
+.navbar-header {
+    float: none;
+    text-align: center;
+}
+
+.navbar .nav {
+    float: none;
+    display: inline-block;
+    font-size: 1.2em;
 }
 
 footer {
     padding: 50px 0;
     margin: 90px 0 0;
-    background-color: #eee;
+    background-color: #ebebeb;
+    border-top: #e9e9e9;
 }
 
 @media(min-width:768px) {
-    body {
+    .navbar-center {
+        text-align: center;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -66,9 +86,8 @@ footer {
      }
 }
 
-time.icon
-{
-  font-size: 1em; /* change icon size */
+time.icon {
+  font-size: 0.85em; /* change icon size */
   display: block;
   position: relative;
   width: 6em;
@@ -121,13 +140,40 @@ time.icon span
 }
 
 .join-us {
-  padding: 80px 0;
-}
-
-.activity-title {
-  margin-top: 2px;
+  padding: 70px;
 }
 
 .activity {
   margin-top: 24px;
+}
+.activity .activity-description {
+  background-image: url(../../subespeleo.jpg);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  color: #ddd;
+  -moz-border-radius: 6px; 
+  border-radius: 6px; /* standards-compliant: (IE) */ 
+}
+
+.activity .activity-description * {
+  background-color: black;
+}
+
+.bg {
+  background: url('../../bg.jpg') no-repeat center center;
+  position: absolute;
+  width: 100%;
+  height: 400px; /*same height as jumbotron */
+  z-index: -1;
+  margin-top: -20px;
+}
+
+.jumbotron {
+  height: 400px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+  position: relative;
+  padding-top: 110px;
+  top: 0;
 }
