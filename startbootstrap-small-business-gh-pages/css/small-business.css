@@ -80,12 +80,6 @@ footer {
     border-left-color: #111111;
 }
 
-@media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-     }
-}
-
 time.icon {
   font-size: 0.85em; /* change icon size */
   display: block;
@@ -115,7 +109,7 @@ time.icon strong
   top: 0;
   padding: 0.4em 0;
   color: #fff;
-  background-color: #000;
+  background-color: #a00;
 }
 
 time.icon em
@@ -177,3 +171,13 @@ time.icon span
   padding-top: 110px;
   top: 0;
 }
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+     time.icon {
+         width: 100%;
+     }
+}
+
