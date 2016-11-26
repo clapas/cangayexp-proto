@@ -16,8 +16,8 @@ body {
 */
 
 .navbar-default {
-    background-color: #eee;
     border-color: #dfdfdf;
+    background-color: #eee; /* old browsers */
 }
 
 .navbar-brand {
@@ -233,11 +233,12 @@ time.icon span
 }
 
 .blog-index {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #dfdfdf;
     text-shadow: #aaa 0px 1px 2px;
     color: #333;
-    background-color: black;
+    background-color: #eee;
     margin-top: -20px;
+    position: relative;
 }
 
 @media (max-width: 991px) {
@@ -248,8 +249,8 @@ time.icon span
 
 .blog-index h1 {
     padding: 20px 0;
-    text-shadow: #ccc 0px 1px 2px;
-    color: #aaa;
+    text-shadow: #999 0px 1px 2px;
+    color: #666;
 }
 
 .blog-index a {
@@ -331,4 +332,58 @@ time.icon span
   nav .pager {
     padding-bottom: 12px;
   }
+}
+
+.activities {
+    background-color: #dDd3f0;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
+.activity {
+    font-size: 0.85em;
+    margin-bottom: 36px;
+}
+
+.activity .activity-header {
+    height: 350px;
+    background-size: auto 100%;
+    background-position: center;
+    padding: 36px;
+    position: relative;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.activity-hiking .activity-header {
+    background-image: url(../hiking.jpg);
+}
+
+.activity-canyon .activity-header {
+    background-image: url(../canyon.jpg);
+}
+
+.activity-kayak .activity-header {
+    background-image: url(../kayak.jpg);
+}
+
+.activity-surf .activity-header {
+    background-image: url(../surf.jpg);
+}
+
+.activity-header > p ,.activity-header > h2 {
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: #fff 0 1px 2px;
+}
+
+.activity-header > h2 {
+    margin-bottom: 48px;
+}
+
+.activity-header > .btn {
+    position: absolute;
+    bottom: 36px;
+    right: 36px;
 }
